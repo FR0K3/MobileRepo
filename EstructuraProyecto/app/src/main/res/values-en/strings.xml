@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BasicForm</string>
+    <string name="text_hello">Name</string>
+    <string name="text_test">Testing Linear Layout</string>
+    <string name="hint_name">Fernando</string>
+    <string name="action_greeting">Greeting</string>
+    <string name="helper_text_write_name">Please type your name</string>
+    <string name="template_greeting">Please type your name</string>
+    <string name="greeting_text">Hi %s,this is my first application on Kotlin</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Activities</string>
+    <string name="gol_text">+1 gol</string>
+    <string name="action_save">Guardar</string>
+    <string name="head_teama">TEAM A</string>
+    <string name="team_b">TEAM B</string>
+    <string name="win_text">Ganador</string>
+    <string name="loser_text">Perdedor</string>
+</resources>

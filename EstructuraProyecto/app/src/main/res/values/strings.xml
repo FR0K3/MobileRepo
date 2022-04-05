@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FormularioBasico</string>
+    <string name="text_hello">Nombre</string>
+    <string name="text_test">Testing Linear Layout</string>
+    <string name="hint_name">Roque</string>
+    <string name="action_greeting">Saludar</string>
+    <string name="helper_text_write_name">Por favor ingrese un nombre</string>
+    <string name="template_greeting">Por favor ingrese un nombre</string>
+    <string name="greeting_text">Hola %s, esta es mi primera aplicación</string>
+</resources>

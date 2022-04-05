@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">04-ViewModel</string>
+    <string name="text_search">Type some text</string>
+</resources>
