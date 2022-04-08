@@ -1,0 +1,49 @@
+DATABINDING
+    Aplicarlo en build.gradle app
+    buildFeatures{
+        dataBinding true
+    }
+
+
+VIEWMODEL
+    Aplicar en build.gradle project
+    ext{
+    	activity_version = "1.4.0"
+    }
+
+    Aplicar en build.gradle app
+    implementation "androidx.activity:activity-ktx:$activity_version"
+
+
+NAVIGATION
+    build.gradle project
+    buildscript {
+        ext{
+	    fragment_version = "1.4.1"
+	    nav_version = "2.4.2"
+        }
+
+        repositories {
+            google()
+        }
+        
+        dependencies {
+            classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+        }
+    }
+
+
+    build.gradle app
+    implementation "androidx.activity:activity-ktx:$activity_version"
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+    debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+
+    plugins{
+	id 'androidx.navigation.safeargs.kotlin'
+    }
+
+
+    
