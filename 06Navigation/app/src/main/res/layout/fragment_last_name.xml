@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.rodriguez.a06navigation.MainViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LastNameFragment"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <EditText
+            android:id="@+id/lastname_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last name"
+            android:text="@={viewModel.lastName}"/>
+
+        <Button
+            android:id="@+id/action_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siguiente"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+</layout>

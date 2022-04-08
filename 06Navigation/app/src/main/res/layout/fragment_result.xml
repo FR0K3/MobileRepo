@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.rodriguez.a06navigation.MainViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ResultFragment"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/nameR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Nombre"
+            android:text="@{viewModel.name}"/>
+
+        <TextView
+            android:id="@+id/lastnameR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Apellido"
+            android:text="@{viewModel.lastName}"/>
+
+    </LinearLayout>
+</layout>
